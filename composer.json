@@ -1,0 +1,42 @@
+{
+    "name": "smst/settings",
+    "description": "A package for managing user defined settings",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dallin Coons",
+            "email": "dallin@websolutionsnyc.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SMST\\Settings\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\SMST\\Settings\\": "tests"
+        }
+    },
+    "require": {
+        "illuminate/container": "^5.5",
+        "smst/commons" : "~2.0.2",
+        "respect/validation": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3",
+        "smst/testing" : "~2.0.1"
+    },
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://satis.smartstock360.com/"
+        }
+    ]
+}
